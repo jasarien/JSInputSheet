@@ -39,10 +39,10 @@
 	{
 		UIView *background = [[[UIView alloc] initWithFrame:[self frame]] autorelease];
 		[background setBackgroundColor:[UIColor blackColor]];
-		[background setAlpha:0.6];
+		[background setAlpha:0.5];
 		[background.layer setCornerRadius:5.0];
 		[background.layer setShadowOffset:CGSizeMake(0, 4)];
-		[background.layer setShadowOpacity:0.7];
+		[background.layer setShadowOpacity:0.6];
 		[self addSubview:background];
 		
 		self.titleLabel = [[[UILabel alloc] initWithFrame:CGRectMake(20, 14, 280, 21)] autorelease];
