@@ -41,7 +41,6 @@
 		[background setBackgroundColor:[UIColor blackColor]];
 		[background setAlpha:0.6];
 		[background.layer setCornerRadius:5.0];
-		[background.layer setMasksToBounds:YES];
 		[background.layer setShadowOffset:CGSizeMake(0, 4)];
 		[background.layer setShadowOpacity:0.7];
 		[self addSubview:background];
